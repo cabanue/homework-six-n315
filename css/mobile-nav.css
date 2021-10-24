@@ -1,0 +1,25 @@
+.mobile-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  min-height: 100vh;
+  background-color: black;
+  top: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.mobile-nav .click {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.mobile-nav .links {
+  background-color: black;
+  width: 25%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 99;
+}
