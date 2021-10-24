@@ -76,10 +76,19 @@
       .little-circle {
         height: 121.04px;
         width: 121.04px;
+        &__paragraph {
+          font-size: 8px;
+        }
       }
       .big-circle {
         height: 257.81px;
         width: 257.81px;
+        &__title {
+          font-size: 17px;
+        }
+        &__paragraph {
+          font-size: 9px;
+        }
       }
     }
   }
